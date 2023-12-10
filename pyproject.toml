@@ -1,0 +1,18 @@
+[tool.briefcase]
+project_name = "CatBoostPerSegment"
+bundle = "com.catboost"
+version = "0.0.1"
+url = "https://example.it"
+license = "BSD license"
+author = 'Svirin Stepan'
+author_email = "Stequoy@gmail.com"
+
+[tool.briefcase.app.app]
+formal_name = "CatBoostSeries"
+description = "Train and test your own model for time series"
+sources = ['src/app']
+requires = [
+            'etna==1.15.0',
+            'path.py',
+            'streamlit',
+]
