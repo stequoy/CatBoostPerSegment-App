@@ -14,8 +14,9 @@ Before you get started, you're going to need a few things:
 
 ## Step 1: Create new virtual environment
 
-
+```bash
 conda create --name name_you_like
+```
 
 
 ## Step 2: Activate your new virtual environment
